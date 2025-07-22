@@ -32,7 +32,15 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center">
-            <div className="text-3xl font-extrabold text-red-700">STMA</div>
+            <div className="relative w-60 h-20">
+              <Image 
+                src="/stma-logo.jpeg" 
+                alt="STMA Technical Development" 
+                fill 
+                className="object-contain"
+                priority
+              />
+            </div>
           </Link>
 
           <div className="hidden md:flex space-x-8">
@@ -45,9 +53,7 @@ export default function Header() {
             <Link href="/services" className="text-gray-700 hover:text-red-700 transition-colors">
               Services
             </Link>
-            <Link href="/projects" className="text-gray-700 hover:text-red-700 transition-colors">
-              Projects
-            </Link>
+           
             <Link href="/contact" className="text-gray-700 hover:text-red-700 transition-colors">
               Contact
             </Link>
@@ -76,9 +82,8 @@ export default function Header() {
               <Link href="/services" className="text-gray-700 hover:text-red-700 transition-colors">
                 Services
               </Link>
-              <Link href="/projects" className="text-gray-700 hover:text-red-700 transition-colors">
-                Projects
-              </Link>
+              
+              
               <Link href="/contact" className="text-gray-700 hover:text-red-700 transition-colors">
                 Contact
               </Link>

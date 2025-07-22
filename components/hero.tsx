@@ -106,7 +106,7 @@ export default function Hero() {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-red-700 text-lg px-8"
+                className="border-white bg-green-600 text-white hover:bg-white hover:text-red-700 text-lg px-8"
               >
                 <Link href="/services">Our Services</Link>
               </Button>
@@ -131,7 +131,7 @@ export default function Hero() {
           <motion.div className="relative h-[400px] lg:h-[500px] w-full" variants={imageVariants}>
             <div className="absolute top-0 left-0 w-full h-full">
               <Image
-                src="/images/brick1.jpeg"
+                src="/images/bricks5.jpeg"
                 alt="STMA Technical Development - Quality Bricks"
                 fill
                 className="object-cover rounded-lg shadow-2xl z-10"
@@ -140,7 +140,7 @@ export default function Hero() {
             </div>
             <div className="absolute -bottom-6 -right-6 w-3/4 h-3/4">
               <Image
-                src="/images/brick-delivery.jpg"
+                src="/bricks-delivary.jpg"
                 alt="STMA Technical Development - Brick Delivery Service"
                 fill
                 className="object-cover rounded-lg shadow-2xl border-4 border-white z-20"

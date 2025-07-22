@@ -20,7 +20,7 @@ export default function ContactCTA() {
               <Phone className="h-8 w-8" />
             </div>
             <h3 className="text-lg font-semibold mb-2">Call Us</h3>
-            <p className="text-red-100">067 667 5969</p>
+            <p className="text-red-100">0676675969</p>
           </div>
 
           <div className="text-center">

@@ -58,7 +58,7 @@ export default function Services() {
         "Nationwide Shipping",
         "Tracking Services",
       ],
-      image: "/images/bricks3.jpeg",
+      image: "/bricks-delivary.jpg",
       specialties: ["On-time Delivery", "Careful Transportation", "Flexible Scheduling", "Site Coordination"],
     },
     {

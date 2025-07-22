@@ -30,7 +30,7 @@ export default function ProjectShowcase() {
       category: "Commercial",
       description:
         "Multi-story office building with specialized concrete flooring, parking garage, and exterior concrete features.",
-      image: "/construction5.jpg",
+      image: "/facebricks.jpg",
       year: "2023",
       size: "8,000 m²",
       highlights: ["High-Rise Construction", "Specialized Flooring", "Parking Structure", "Modern Design"],

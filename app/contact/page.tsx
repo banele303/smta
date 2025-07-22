@@ -39,8 +39,8 @@ export default function ContactPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Ready to start your concrete construction project? Get in touch with M.P And Concrete Floors for a free
-              consultation and detailed quote. We're here to help bring your vision to life.
+              Ready to start your construction project with quality bricks? Get in touch with STMA Technical Development for a free
+              consultation and detailed quote. We're here to provide top-quality brick manufacturing solutions.
             </p>
           </div>
         </div>
@@ -119,11 +119,11 @@ export default function ContactPage() {
                         className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
                       >
                         <option value="">Select a service</option>
-                        <option value="concrete-construction">Concrete Construction</option>
-                        <option value="civil-construction">Civil Construction</option>
-                        <option value="custom-homes">Custom Homes</option>
-                        <option value="extensions">Extensions</option>
-                        <option value="project-management">Project Management</option>
+                        <option value="brick-manufacturing">Brick Manufacturing</option>
+                        <option value="brick-supply">Brick Supply</option>
+                        <option value="brick-delivery">Brick Delivery</option>
+                        <option value="technical-support">Technical Support</option>
+                        <option value="custom-brick-solutions">Custom Brick Solutions</option>
                         <option value="other">Other</option>
                       </select>
                     </div>
@@ -163,8 +163,8 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Call Us</h3>
                       <p className="text-gray-600 mb-2">Ready to discuss your project?</p>
-                      <a href="tel:0812189299" className="text-orange-600 font-semibold text-lg hover:text-orange-700">
-                        081 218 9299
+                      <a href="tel:0676675969" className="text-orange-600 font-semibold text-lg hover:text-orange-700">
+                        067 667 5969
                       </a>
                     </div>
                   </div>
@@ -181,10 +181,10 @@ export default function ContactPage() {
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
                       <p className="text-gray-600 mb-2">Send us your project details</p>
                       <a
-                        href="mailto:mp25concretefloors@gmail.com"
+                        href="mailto:Info@STMA.co.za"
                         className="text-orange-600 font-semibold hover:text-orange-700 break-all"
                       >
-                        mp25concretefloors@gmail.com
+                        Info@STMA.co.za
                       </a>
                     </div>
                   </div>
@@ -201,11 +201,13 @@ export default function ContactPage() {
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Visit Our Office</h3>
                       <p className="text-gray-600 mb-2">Come see us for an in-person consultation</p>
                       <address className="text-gray-700 not-italic">
-                        11 Logone Crescent
+                        Stand number 4927
                         <br />
-                        Happy Valley, Blackheath 7580
+                        Makwarela Ext 3
                         <br />
-                        Cape Town, South Africa
+                        Thohoyandou, Limpopo 0950
+                        <br />
+                        South Africa
                       </address>
                     </div>
                   </div>
@@ -244,7 +246,7 @@ export default function ContactPage() {
             repairs and emergency services.
           </p>
           <Button asChild size="lg" className="bg-red-600 hover:bg-red-700">
-            <a href="tel:0812189299">Emergency Hotline: 081 218 9299</a>
+            <a href="tel:0676675969">Emergency Hotline: 067 667 5969</a>
           </Button>
         </div>
       </section>

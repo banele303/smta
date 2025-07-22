@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { CheckCircle, Package, Wrench, Truck, Shield, Leaf } from "lucide-react"
+import { CheckCircle, Package, Wrench, Truck, Shield, Leaf, HardHat } from "lucide-react"
 import Link from "next/link"
 
 export const metadata: Metadata = {

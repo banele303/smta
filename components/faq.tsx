@@ -85,7 +85,7 @@ export default function FAQ() {
               href="tel:0812189299"
               className="bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors"
             >
-              Call: 081 218 9299
+              Call: 0676675969
             </a>
             <a
               href="mailto:mp25concretefloors@gmail.com"

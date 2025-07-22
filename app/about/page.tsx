@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { Card, CardContent } from "@/components/ui/card"
-import { CheckCircle } from "lucide-react"
+import { Award, CheckCircle, Clock, Users, Shield } from "lucide-react"
 import Image from "next/image"
 
 export const metadata: Metadata = {
@@ -27,6 +27,24 @@ export default function AboutPage() {
     }
   ]
 
+  const values = [
+    {
+      icon: CheckCircle,
+      title: "Quality",
+      description: "We maintain the highest standards in brick manufacturing to ensure durability and reliability in every product."
+    },
+    {
+      icon: CheckCircle,
+      title: "Sustainability",
+      description: "Committed to eco-friendly practices that minimize environmental impact while delivering superior products."
+    },
+    {
+      icon: CheckCircle,
+      title: "Innovation",
+      description: "Continuously improving our processes and products to meet the evolving needs of the construction industry."
+    }
+  ];
+
   const whyChooseUs = [
     "Quality products: We prioritize quality in all aspects of our operations.",
     "Customer focus: We're dedicated to meeting the needs of our customers.",
@@ -40,22 +58,58 @@ export default function AboutPage() {
     { type: "Phone", value: "067 667 5969" },
     { type: "Address", value: "Stand number 4927 Makwarela Ext 3 Thohoyandou, Limpopo 0950" }
   ]
+
+  const milestones = [
+    {
+      year: "2015",
       title: "Technology Integration",
-      description:
-        "Invested in modern equipment and technology to improve efficiency and quality of our construction processes.",
+      description: "Invested in modern equipment and technology to improve efficiency and quality of our construction processes."
     },
     {
       year: "2018",
       title: "Sustainability Focus",
-      description: "Implemented eco-friendly practices and sustainable construction methods in all our projects.",
+      description: "Implemented eco-friendly practices and sustainable construction methods in all our projects."
     },
     {
       year: "2024",
       title: "Continued Growth",
-      description:
-        "Celebrating over 25 years of excellence with 500+ completed projects and a growing team of professionals.",
-    },
+      description: "Celebrating over 25 years of excellence with 500+ completed projects and a growing team of professionals."
+    }
   ]
+  
+
+  const timeline = [
+    {
+      year: "2018",
+      title: "Company Founded",
+      description: "Our journey began with a vision to revolutionize the industry."
+    },
+    {
+      year: "2019",
+      title: "First Major Milestone",
+      description: "Reached our first 1,000 customers and expanded our team."
+    },
+    {
+      year: "2020",
+      title: "Product Expansion",
+      description: "Launched our flagship product to critical acclaim."
+    },
+    {
+      year: "2021",
+      title: "Global Reach",
+      description: "Expanded our services to international markets."
+    },
+    {
+      year: "2022",
+      title: "Award Winning",
+      description: "Recognized as industry leaders with multiple awards."
+    },
+    {
+      year: "2023",
+      title: "New Headquarters",
+      description: "Moved to a larger office to accommodate our growing team."
+    }
+  ];
 
   return (
     <main>
