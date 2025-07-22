@@ -34,7 +34,7 @@ export default function Home() {
       <Services />
       {/* <ProjectShowcase /> */}
       <WhyChooseUs />
-      {/* <ServiceAreas /> */}
+      <ServiceAreas />
       <Testimonials />
       <FAQ />
       <ContactCTA />

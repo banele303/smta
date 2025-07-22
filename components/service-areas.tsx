@@ -12,32 +12,22 @@ export default function ServiceAreas() {
 
   const serviceAreas = [
     {
-      area: "Southern Suburbs",
-      locations: ["Constant", "Claremont", "Wynberg", "Rondebosch", "Newlands", "Observatory"],
-      description: "Comprehensive construction services for Cape Town's prestigious southern suburbs.",
-      image: "/placeholder.svg?height=200&width=300",
-      responseTime: "30 minutes",
+      area: "Makwarela Branch",
+      locations: ["Serving the greater Thohoyandou area"],
+      description: "Our main branch, providing a full range of brick products and services.",
+      phone: "067 667 5969",
     },
     {
-      area: "Northern Suburbs",
-      locations: ["Goodwood", "Bellville", "Parow", "Brackenfell", "Durbanville", "Kraaifontein"],
-      description: "Professional concrete construction for residential and commercial developments.",
-      image: "/placeholder.svg?height=200&width=300",
-      responseTime: "45 minutes",
+      area: "Mutoti Branch",
+      locations: ["Conveniently located to serve Mutoti and surrounding communities"],
+      description: "Your local source for high-quality stock and paving bricks.",
+      phone: "067 667 5969",
     },
     {
-      area: "City Bowl & Atlantic Seaboard",
-      locations: ["City Centre", "Woodstock", "Salt River", "Sea Point", "Camps Bay", "Clifton"],
-      description: "Specialized urban construction services for high-density developments.",
-      image: "/placeholder.svg?height=200&width=300",
-      responseTime: "25 minutes",
-    },
-    {
-      area: "Eastern Suburbs",
-      locations: ["Blackheath", "Happy Valley", "Elsies River", "Ravensmead", "Bonteheuwel", "Bishop Lavis"],
-      description: "Local expertise serving our home base and surrounding eastern communities.",
-      image: "/placeholder.svg?height=200&width=300",
-      responseTime: "20 minutes",
+      area: "Vhudimbilu Branch",
+      locations: ["Extending our reach to Vhudimbilu and nearby regions"],
+      description: "Reliable brick supply and delivery for all your construction needs.",
+      phone: "067 667 5969",
     },
   ]
 
@@ -70,10 +60,9 @@ export default function ServiceAreas() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Service Areas Across Cape Town</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Branches</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We proudly serve Cape Town and surrounding areas with our comprehensive construction services. Our strategic
-            location in Blackheath allows us to provide rapid response times across the metropolitan area.
+            We are proud to serve our local communities with high-quality bricks and reliable service. Find a branch near you.
           </p>
         </motion.div>
 
@@ -85,42 +74,22 @@ export default function ServiceAreas() {
           animate={isInView ? "visible" : "hidden"}
         >
           {serviceAreas.map((area, index) => (
-            <motion.div key={index} variants={itemVariants}>
-              <Card className="overflow-hidden hover:shadow-xl transition-all duration-500 h-full group">
-                <div className="aspect-video relative overflow-hidden">
-                  <Image
-                    src={area.image || "/placeholder.svg"}
-                    alt={`${area.area} service area`}
-                    width={300}
-                    height={200}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  <div className="absolute bottom-4 left-4">
-                    <h3 className="text-white text-xl font-bold">{area.area}</h3>
+            <motion.div key={index}>
+              <Card className="hover:shadow-xl transition-all duration-500 h-full group p-6">
+                <CardContent className="p-0">
+                  <h3 className="text-xl font-bold mb-2">{area.area}</h3>
+                  <div className="flex items-center text-sm text-gray-600 mb-4">
+                    <MapPin className="h-4 w-4 mr-2 text-orange-600" />
+                    <span>{area.locations.join(", ")}</span>
                   </div>
-                </div>
 
-                <CardContent className="p-6">
-                  <p className="text-gray-600 mb-4 leading-relaxed">{area.description}</p>
-
-                  <div className="mb-4">
-                    <h4 className="font-semibold text-gray-900 mb-2 flex items-center">
-                      <MapPin className="h-4 w-4 mr-2 text-orange-600" />
-                      Coverage Areas:
-                    </h4>
-                    <div className="flex flex-wrap gap-1">
-                      {area.locations.map((location, locationIndex) => (
-                        <span key={locationIndex} className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded">
-                          {location}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
+                  <p className="text-gray-700 my-4">{area.description}</p>
 
                   <div className="flex items-center text-sm text-gray-600">
-                    <Clock className="h-4 w-4 mr-2 text-orange-600" />
-                    <span>Average response time: {area.responseTime}</span>
+                    <Phone className="w-4 h-4 mr-2 text-orange-600" />
+                    <a href={`tel:${area.phone.replace(/\s/g, "")}`} className="hover:underline">
+                      {area.phone}
+                    </a>
                   </div>
                 </CardContent>
               </Card>
