@@ -140,7 +140,7 @@ export default function Hero() {
             </div>
             <div className="absolute -bottom-6 -right-6 w-3/4 h-3/4">
               <Image
-                src="/bricks-delivary.jpg"
+                src="/truck-delivery.jpeg"
                 alt="STMA Technical Development - Brick Delivery Service"
                 fill
                 className="object-cover rounded-lg shadow-2xl border-4 border-white z-20"
