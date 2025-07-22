@@ -3,54 +3,54 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export default function FAQ() {
   const faqs = [
     {
-      question: "What types of concrete construction services do you offer?",
+      question: "What types of bricks do you manufacture?",
       answer:
-        "We offer comprehensive concrete construction services including residential and commercial flooring, driveways, patios, foundations, civil construction projects, custom home construction, extensions, and specialized concrete repair and restoration work.",
+        "We manufacture a wide range of bricks, including stock bricks, face bricks, and paving bricks. Our products are suitable for various construction needs, from residential homes to large-scale commercial projects.",
     },
     {
-      question: "How long does a typical concrete project take to complete?",
+      question: "What are your bricks made from?",
       answer:
-        "Project timelines vary depending on size and complexity. A standard residential driveway typically takes 2-3 days, while larger commercial projects may take several weeks. We provide detailed timelines during our initial consultation and keep you updated throughout the process.",
+        "Our bricks are made from high-quality, locally sourced clay and shale. We follow a rigorous manufacturing process to ensure durability, consistent quality, and excellent structural integrity in all our products.",
     },
     {
-      question: "Do you provide free estimates?",
+      question: "Do you offer delivery services?",
       answer:
-        "Yes, we provide free, no-obligation estimates for all our services. Our team will visit your site, assess your requirements, and provide a detailed quote including materials, labor, and timeline. Contact us at 081 218 9299 to schedule your free estimate.",
+        "Yes, we offer reliable and efficient delivery services across Limpopo and surrounding areas. We ensure that your bricks are delivered to your site on time and in perfect condition. Contact us to discuss your delivery needs.",
     },
     {
-      question: "Are you licensed and insured?",
+      question: "How can I place an order?",
       answer:
-        "Absolutely. M.P And Concrete Floors is fully licensed, bonded, and insured. We carry comprehensive liability insurance and provide warranty coverage on all our work to ensure your complete peace of mind.",
+        "You can place an order by calling us directly at 067 667 5969 or by sending an email to Info@STMA.co.za. Our team will guide you through the process and help you choose the right products for your project.",
     },
     {
-      question: "What areas in Cape Town do you serve?",
+      question: "What is the minimum order quantity?",
       answer:
-        "We serve Cape Town and surrounding areas including Constantia, Claremont, Wynberg, Rondebosch, Newlands, Observatory, Blackheath, and Happy Valley. Contact us to confirm service availability in your specific area.",
+        "The minimum order quantity may vary depending on the type of brick and your location. Please contact our sales team for detailed information regarding minimum order requirements for your specific project.",
     },
     {
-      question: "What factors affect the cost of concrete work?",
+      question: "Are your bricks environmentally friendly?",
       answer:
-        "Several factors influence pricing including project size, concrete type and grade, site accessibility, ground preparation requirements, finishing options, and timeline. We provide transparent, detailed quotes with no hidden costs.",
+        "We are committed to sustainable manufacturing practices. Our process is designed to minimize environmental impact, and we continuously work on improving our energy efficiency and waste reduction methods.",
     },
     {
-      question: "How do you ensure quality in your concrete work?",
+      question: "Do you provide technical support or advice on which bricks to use?",
       answer:
-        "We use only premium-grade materials from trusted suppliers, employ certified professionals with decades of experience, utilize modern equipment and proven techniques, and conduct thorough quality inspections at every stage of the project.",
+        "Absolutely! Our experienced team is always available to provide expert advice and technical support. We can help you select the best type of brick for your application, ensuring optimal performance and aesthetic appeal.",
     },
     {
-      question: "Can you work around my schedule and business hours?",
+      question: "What are your payment terms?",
       answer:
-        "Yes, we understand that construction can be disruptive. We work closely with our clients to minimize inconvenience and can often accommodate specific scheduling requirements, including working around business hours for commercial projects.",
+        "We offer flexible payment options. For most orders, we require a deposit to confirm the order, with the balance due upon delivery. We accept various payment methods, which our sales team can discuss with you.",
     },
     {
-      question: "Do you handle permits and regulatory requirements?",
+      question: "Can I get a sample of your bricks?",
       answer:
-        "Yes, we handle all necessary permits and ensure compliance with local building codes and regulations. Our experienced team navigates the permit process efficiently, saving you time and ensuring your project meets all legal requirements.",
+        "Yes, we can provide samples of our bricks to help you make an informed decision. Please contact us to arrange for sample delivery or collection from our office.",
     },
     {
-      question: "What warranty do you provide on your work?",
+      question: "What are your business hours?",
       answer:
-        "We stand behind our work with comprehensive warranty coverage. Specific warranty terms vary by project type, but we typically provide up to 10 years warranty on structural work and materials. All warranty details are clearly outlined in your contract.",
+        "Our office is open from 7:00 AM to 5:00 PM, Monday to Friday, and from 8:00 AM to 2:00 PM on Saturday. We are closed on Sundays.",
     },
   ]
 
@@ -60,8 +60,8 @@ export default function FAQ() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Find answers to common questions about our tree care services, processes, and what you can expect
-            when working with our professional arborists.
+            Find answers to common questions about our brick manufacturing, delivery services, and what you can expect
+            when working with STMA Technical Development.
           </p>
         </div>
 
