@@ -32,7 +32,7 @@ export default function Home() {
       <Hero />
       <About />
       <Services />
-      <ProjectShowcase />
+      {/* <ProjectShowcase /> */}
       <WhyChooseUs />
       {/* <ServiceAreas /> */}
       <Testimonials />

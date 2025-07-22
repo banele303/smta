@@ -108,34 +108,21 @@ export default function ServicesPage() {
     },
   ]
 
-  const additionalServices = [
-    {
-      icon: HardHat,
-      title: "Project Management",
-      description: "End-to-end project management ensuring timely completion and quality control",
-    },
-    {
-      icon: Truck,
-      title: "Demolition Services",
-      description: "Safe and efficient demolition services for residential and commercial properties",
-    },
-    {
-      icon: Wrench,
-      title: "Concrete Repair",
-      description: "Professional concrete repair and restoration services for existing structures",
-    },
-  ]
+
 
   return (
     <main>
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-gray-900 to-orange-900 text-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6">Our Construction Services</h1>
-            <p className="text-xl text-gray-200 leading-relaxed">
-              From residential concrete floors to large-scale commercial projects, we offer comprehensive construction
-              services backed by over 25 years of experience and expertise.
+      <section
+        className="bg-cover bg-center py-24 text-white"
+        style={{ backgroundImage: "url('/images/bricks2.jpeg')" }}
+      >
+        <div className="bg-black bg-opacity-60 py-20">
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="text-5xl font-bold mb-4">Our Brick Manufacturing Services</h1>
+            <p className="text-xl max-w-3xl mx-auto">
+              From durable building bricks to custom-designed solutions, we provide a comprehensive range of services to
+              meet all your construction needs with quality and precision.
             </p>
           </div>
         </div>
@@ -196,33 +183,6 @@ export default function ServicesPage() {
               </div>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* Additional Services */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Additional Services</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We also offer specialized services to complement our main construction offerings and provide comprehensive
-              solutions for all your construction needs.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {additionalServices.map((service, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
-                <CardContent className="p-6 text-center">
-                  <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <service.icon className="h-8 w-8 text-orange-600" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">{service.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{service.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
         </div>
       </section>
 

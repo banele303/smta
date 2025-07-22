@@ -152,7 +152,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="bg-orange-100 p-6 rounded-lg">
                 <Image
-                  src="/construction/construction4.jpg"
+                  src="/facebricks.jpg"
                   alt="M.P And Concrete Floors company information and services"
                   width={500}
                   height={600}
