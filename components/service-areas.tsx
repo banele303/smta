@@ -97,39 +97,7 @@ export default function ServiceAreas() {
           ))}
         </motion.div>
 
-        <motion.div
-          className="bg-white rounded-lg p-8 shadow-lg"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-        >
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Emergency Services Available</h3>
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Construction emergencies don't wait for business hours. We provide 24/7 emergency response services for
-                urgent repairs, structural issues, and safety concerns across all our service areas.
-              </p>
-              <div className="flex items-center space-x-4">
-                <div className="flex items-center text-orange-600">
-                  <Phone className="h-5 w-5 mr-2" />
-                  <span className="font-semibold">081 218 9299</span>
-                </div>
-                <span className="text-gray-400">|</span>
-                <span className="text-sm text-gray-600">24/7 Emergency Hotline</span>
-              </div>
-            </div>
-            <div className="relative">
-              <Image
-                src="/placeholder.svg?height=250&width=350"
-                alt="Emergency construction services"
-                width={350}
-                height={250}
-                className="rounded-lg shadow-md"
-              />
-            </div>
-          </div>
-        </motion.div>
+        
 
         <motion.div
           className="mt-12 text-center"
