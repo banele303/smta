@@ -19,12 +19,12 @@ export default function Services() {
       description:
         "We produce a wide range of high-quality bricks for various construction applications, including building and paving.",
       features: [
-        "Standard Building Bricks",
-        "Face Bricks",
-        "Paving Bricks",
-        "Special Shaped Bricks",
-        "Fire Bricks",
-        "Engineering Bricks",
+        "Stock Bricks",
+        "Quantum Bricks",
+        "Paving Bricks (Straight) - 60mm",
+        "Paving Bricks (Straight) - 80mm",
+        "Paving Bricks (Interlocking) - 60mm",
+        "Paving Bricks (Interlocking) - 80mm",
       ],
       image: "/images/brick1.jpeg",
       specialties: ["Quality Materials", "Precision Manufacturing", "Consistent Standards", "Durable Products"],
@@ -150,7 +150,7 @@ export default function Services() {
                 </div>
 
                 <Button asChild className="bg-red-700 hover:bg-red-800">
-                  <Link href="/contact">
+                  <Link href="/quote">
                     <span className="flex items-center gap-2">
                       Get a Quote <ArrowRight className="h-4 w-4" />
                     </span>

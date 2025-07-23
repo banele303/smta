@@ -5,7 +5,7 @@ export default function FAQ() {
     {
       question: "What types of bricks do you manufacture?",
       answer:
-        "We manufacture a wide range of bricks, including stock bricks, face bricks, and paving bricks. Our products are suitable for various construction needs, from residential homes to large-scale commercial projects.",
+        "We manufacture a wide range of bricks, including Stock Bricks, Quantum Bricks, Paving Bricks (Straight) in 60mm and 80mm thickness, and Paving Bricks (Interlocking) in 60mm and 80mm thickness. Our products are suitable for various construction needs, from residential homes to large-scale commercial projects.",
     },
     {
       question: "What are your bricks made from?",

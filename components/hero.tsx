@@ -100,7 +100,7 @@ export default function Hero() {
 
             <motion.div className="flex flex-col sm:flex-row gap-4" variants={itemVariants}>
               <Button asChild size="lg" className="bg-white text-red-700 hover:bg-gray-100 text-lg px-8">
-                <Link href="/contact">Get a Quote</Link>
+                <Link href="/quote">Get a Quote</Link>
               </Button>
               <Button
                 asChild

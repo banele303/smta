@@ -37,7 +37,7 @@ export default function ContactCTA() {
               <MapPin className="h-8 w-8" />
             </div>
             <h3 className="text-lg font-semibold mb-2">Location</h3>
-            <p className="text-red-100">Stand number 4927 Makwarela Ext 3 Thohoyandou, Limpopo 0950</p>
+            <p className="text-red-100">Makwarela Extension 3 Punda Maria road (Ha vho Bologo) next to MTG</p>
           </div>
 
           <div className="text-center">
@@ -55,7 +55,7 @@ export default function ContactCTA() {
 
         <div className="text-center">
           <Button asChild size="lg" className="bg-white text-red-700 hover:bg-gray-100 text-lg px-8">
-            <Link href="/contact">Get Your Free Quote Today</Link>
+            <Link href="/quote">Get Your Free Quote Today</Link>
           </Button>
         </div>
       </div>

@@ -203,7 +203,7 @@ export default function ContactPage() {
                       <address className="text-gray-700 not-italic">
                         Stand number 4927
                         <br />
-                        Makwarela Ext 3
+                        Makwarela Extension 3 Punda Maria road (Ha vho Bologo) next to MTG
                         <br />
                         Thohoyandou, Limpopo 0950
                         <br />

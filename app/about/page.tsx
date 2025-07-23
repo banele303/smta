@@ -56,7 +56,7 @@ export default function AboutPage() {
     { type: "Email", value: "Takalani@STMA.co.za" },
     { type: "Email", value: "Info@STMA.co.za" },
     { type: "Phone", value: "067 667 5969" },
-    { type: "Address", value: "Stand number 4927 Makwarela Ext 3 Thohoyandou, Limpopo 0950" }
+    { type: "Address", value: "Makwarela Extension 3 Punda Maria road (Ha vho Bologo) next to MTG" }
   ]
 
   const milestones = [

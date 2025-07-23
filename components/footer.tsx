@@ -88,7 +88,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-red-400 mt-1 flex-shrink-0" />
-                <span>Stand number 4927 Makwarela Ext 3 Thohoyandou, Limpopo 0950</span>
+                <span>Makwarela Extension 3 Punda Maria road (Ha vho Bologo) next to MTG</span>
               </div>
             </div>
           </div>

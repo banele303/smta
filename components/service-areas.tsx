@@ -13,7 +13,7 @@ export default function ServiceAreas() {
   const serviceAreas = [
     {
       area: "Makwarela Branch",
-      locations: ["Serving the greater Thohoyandou area"],
+      locations: ["Makwarela Extension 3 Punda Maria road (Ha vho Bologo) next to MTG"],
       description: "Our main branch, providing a full range of brick products and services.",
       phone: "067 667 5969",
     },

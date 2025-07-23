@@ -20,14 +20,14 @@ export default function ServicesPage() {
       title: "Brick Manufacturing",
       description: "We produce a wide range of high-quality bricks for various construction applications, including building and paving.",
       features: [
-        "High-quality building bricks",
-        "Paving bricks for outdoor spaces",
-        "Standard and custom sizes",
-        "Variety of colors and textures",
+        "Stock Bricks",
+        "Quantum Bricks",
+        "Paving Bricks (Straight) - 60mm",
+        "Paving Bricks (Straight) - 80mm",
+        "Paving Bricks (Interlocking) - 60mm",
+        "Paving Bricks (Interlocking) - 80mm",
         "Consistent quality control",
-        "Sustainable production methods",
         "Durable and weather-resistant",
-        "Suitable for all construction needs",
       ],
       process: [
         "Raw material selection and testing",
@@ -199,7 +199,7 @@ export default function ServicesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-white text-orange-600 hover:bg-gray-100">
-              <Link href="/contact">Get Free Quote</Link>
+              <Link href="/quote">Get Free Quote</Link>
             </Button>
             <Button
               asChild

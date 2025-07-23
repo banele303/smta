@@ -24,7 +24,7 @@ export default function Header() {
             </div>
           </div>
           <div className="hidden md:block">
-            <span>Stand number 4927 Makwarela Ext 3 Thohoyandou, Limpopo 0950</span>
+            <span>Makwarela Extension 3 Punda Maria road (Ha vho Bologo) next to MTG</span>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ export default function Header() {
 
           <div className="hidden md:block">
             <Button asChild className="bg-red-700 hover:bg-red-800">
-              <Link href="/contact">Get Quote</Link>
+              <Link href="/quote">Get Quote</Link>
             </Button>
           </div>
 
@@ -88,7 +88,7 @@ export default function Header() {
                 Contact
               </Link>
               <Button asChild className="bg-red-700 hover:bg-red-800 w-fit">
-                <Link href="/contact">Get Quote</Link>
+                <Link href="/quote">Get Quote</Link>
               </Button>
             </div>
           </div>
