@@ -140,8 +140,8 @@ export default function Hero() {
             </div>
             <div className="absolute -bottom-6 -right-6 w-3/4 h-3/4">
               <Image
-                src="/truck-delivery.jpeg"
-                alt="STMA Technical Development - Brick Delivery Service"
+                src="/images/bricks4.jpeg"
+                alt="STMA Technical Development - Quality Brick Manufacturing"
                 fill
                 className="object-cover rounded-lg shadow-2xl border-4 border-white z-20"
                 style={{ transform: 'rotate(5deg)' }}
