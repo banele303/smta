@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, Package, Wrench, Truck, Shield, Leaf, HardHat } from "lucide-react"
 import Link from "next/link"
+import ServiceAreas from "@/components/service-areas"
 
 export const metadata: Metadata = {
   title: "Brick Manufacturing & Services - STMA Technical Development",
@@ -187,43 +188,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Service Areas */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Service Areas in Cape Town</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We proudly serve Cape Town and surrounding areas with our comprehensive construction services. Contact us
-              to confirm service availability in your area.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              "Blackheath",
-              "Happy Valley",
-              "Constantia",
-              "Claremont",
-              "Wynberg",
-              "Rondebosch",
-              "Newlands",
-              "Observatory",
-              "Woodstock",
-              "Salt River",
-              "Goodwood",
-              "Bellville",
-              "Parow",
-              "Elsies River",
-              "Brackenfell",
-              "Durbanville",
-            ].map((area, index) => (
-              <div key={index} className="bg-gray-50 p-4 rounded-lg text-center">
-                <span className="text-gray-800 font-medium">{area}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+     <ServiceAreas />
       {/* CTA Section */}
       <section className="py-20 bg-orange-600 text-white">
         <div className="container mx-auto px-4 text-center">

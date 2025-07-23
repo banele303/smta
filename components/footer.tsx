@@ -63,11 +63,7 @@ export default function Footer() {
                   Services
                 </Link>
               </li>
-              <li>
-                <Link href="/projects" className="hover:text-red-400 transition-colors">
-                  Projects
-                </Link>
-              </li>
+             
               <li>
                 <Link href="/contact" className="hover:text-red-400 transition-colors">
                   Contact
