@@ -125,7 +125,7 @@ export default function Services() {
                 <p className="text-xl text-gray-600 mb-6">{service.description}</p>
 
                 <div className="mb-6">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-3">Features:</h4>
+                  <h4 className="text-lg font-semibold text-gray-900 mb-3">Brick Types and Features </h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {service.features.map((feature, i) => (
                       <div key={i} className="flex items-start space-x-2">
