@@ -19,12 +19,7 @@ export default function Services() {
       description:
         "We produce a wide range of high-quality bricks for various construction applications, including building and paving.",
       features: [
-        "Stock Bricks",
-        "Quantum Bricks",
-        "Paving Bricks (Straight) - 60mm",
-        "Paving Bricks (Straight) - 80mm",
-        "Paving Bricks (Interlocking) - 60mm",
-        "Paving Bricks (Interlocking) - 80mm",
+        "Type of bricks",
       ],
       image: "/images/brick1.jpeg",
       specialties: ["Quality Materials", "Precision Manufacturing", "Consistent Standards", "Durable Products"],

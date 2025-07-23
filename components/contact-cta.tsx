@@ -28,8 +28,7 @@ export default function ContactCTA() {
               <Mail className="h-8 w-8" />
             </div>
             <h3 className="text-lg font-semibold mb-2">Email Us</h3>
-            <p className="text-red-100 break-all">Info@STMA.co.za</p>
-            <p className="text-red-100 break-all">Takalani@STMA.co.za</p>
+            <p className="text-red-100 break-all">stmamakwarela@gmail.com</p>
           </div>
 
           <div className="text-center">

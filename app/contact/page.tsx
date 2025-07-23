@@ -181,10 +181,10 @@ export default function ContactPage() {
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
                       <p className="text-gray-600 mb-2">Send us your project details</p>
                       <a
-                        href="mailto:Info@STMA.co.za"
+                        href="mailto:stmamakwarela@gmail.com"
                         className="text-orange-600 font-semibold hover:text-orange-700 break-all"
                       >
-                        Info@STMA.co.za
+                        stmamakwarela@gmail.com
                       </a>
                     </div>
                   </div>

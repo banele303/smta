@@ -82,8 +82,7 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-red-400 mt-1 flex-shrink-0" />
                 <div className="flex flex-col">
-                  <span className="break-all">Info@STMA.co.za</span>
-                  <span className="break-all">Takalani@STMA.co.za</span>
+                  <span className="break-all">stmamakwarela@gmail.com</span>
                 </div>
               </div>
               <div className="flex items-start space-x-3">

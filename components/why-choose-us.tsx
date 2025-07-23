@@ -83,7 +83,7 @@ export default function WhyChooseUs() {
               Call: 067 667 5969
             </a>
             <a
-              href="mailto:Info@STMA.co.za"
+              href="mailto:stmamakwarela@gmail.com"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-700 transition-colors"
             >
               Email Us

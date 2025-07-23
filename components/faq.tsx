@@ -10,7 +10,7 @@ export default function FAQ() {
     {
       question: "What are your bricks made from?",
       answer:
-        "Our bricks are made from high-quality, locally sourced clay and shale. We follow a rigorous manufacturing process to ensure durability, consistent quality, and excellent structural integrity in all our products.",
+        "Our bricks are made from high-quality, locally sourced clay , cemend, send, crushed stone (for paving bricks)and shale. We follow a rigorous manufacturing process to ensure durability, consistent quality, and excellent structural integrity in all our products.",
     },
     {
       question: "Do you offer delivery services?",
@@ -20,7 +20,7 @@ export default function FAQ() {
     {
       question: "How can I place an order?",
       answer:
-        "You can place an order by calling us directly at 067 667 5969 or by sending an email to Info@STMA.co.za. Our team will guide you through the process and help you choose the right products for your project.",
+        "You can place an order by calling us directly at 067 667 5969 or by sending an email to stmamakwarela@gmail.com. Our team will guide you through the process and help you choose the right products for your project.",
     },
     {
       question: "What is the minimum order quantity?",
