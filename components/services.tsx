@@ -21,6 +21,7 @@ export default function Services() {
       features: [
         "Stock bricks",
         "Quantum bricks",
+        "Mampara Bricks",
         "Paving bricks (straight) 60mm and 80mm",
         "Paving bricks (Interlocking) 60mm and 80mm",
       ],

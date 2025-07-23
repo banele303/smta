@@ -81,16 +81,22 @@ export default function Hero() {
         >
           <div>
             <motion.h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight" variants={itemVariants}>
-              Premier
               <motion.span
-                className="text-amber-300"
+                className="text-yellow-400"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 0.5, duration: 0.6 }}
+                transition={{ delay: 0.3, duration: 0.6 }}
               >
-                Brick Manufacturing
+                Premium Bricks
               </motion.span>{" "}
-              Services
+              <motion.span
+                className="text-white"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.6, duration: 0.6 }}
+              >
+                Manufacturing Services
+              </motion.span>
             </motion.h1>
 
             <motion.p className="text-xl mb-8 text-gray-200 leading-relaxed" variants={itemVariants}>
@@ -140,7 +146,7 @@ export default function Hero() {
             </div>
             <div className="absolute -bottom-6 -right-6 w-3/4 h-3/4">
               <Image
-                src="/images/bricks4.jpeg"
+                src="/images/brick1.jpeg"
                 alt="STMA Technical Development - Quality Brick Manufacturing"
                 fill
                 className="object-cover rounded-lg shadow-2xl border-4 border-white z-20"
