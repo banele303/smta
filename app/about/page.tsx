@@ -118,7 +118,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">About STMA Technical Development</h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              For over 10 years, we have been Cape Town's trusted partner for high-quality brick manufacturing,
+              For over 10 years, we have been a trusted partner for high-quality brick manufacturing,
               construction materials, and building solutions. Our commitment to quality, innovation, and customer satisfaction has made
               us a leader in the brick manufacturing industry.
             </p>
@@ -134,7 +134,7 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 STMA Technical Development Pty Ltd began as a small family-owned business with a simple mission: to
-                provide honest, reliable brick manufacturing services to the Cape Town community. What started as a
+                provide honest, reliable brick manufacturing services to our community. What started as a
                 one-man operation has grown into one of the region's most respected brick manufacturing companies.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">

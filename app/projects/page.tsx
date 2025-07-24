@@ -5,11 +5,11 @@ import { Calendar, MapPin, Users } from "lucide-react"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Our Projects - M.P And Concrete Floors | Cape Town Construction Portfolio",
+  title: "Our Projects - STMA Technical Development | Brick Manufacturing Portfolio",
   description:
-    "View our portfolio of completed concrete construction projects in Cape Town including residential, commercial, and civil engineering projects.",
+    "View our portfolio of completed brick manufacturing projects including residential, commercial, and construction material supply.",
   keywords:
-    "concrete construction projects Cape Town, construction portfolio, completed projects, residential construction, commercial construction",
+    "brick manufacturing projects, construction portfolio, completed projects, residential construction, commercial construction",
 }
 
 export default function ProjectsPage() {
@@ -20,7 +20,7 @@ export default function ProjectsPage() {
       description:
         "Complete concrete construction for a 50-unit luxury residential complex including foundations, driveways, and decorative concrete features.",
       year: "2024",
-      location: "Constantia, Cape Town",
+      location: "Constantia",
       size: "5,000 m²",
       image: "/construction/construction3.jpg",
     },
@@ -30,7 +30,7 @@ export default function ProjectsPage() {
       description:
         "Multi-story office building with specialized concrete flooring, parking garage, and exterior concrete features.",
       year: "2023",
-      location: "Claremont, Cape Town",
+      location: "Claremont",
       size: "8,000 m²",
       image: "/construction/construction4.jpg",
     },
@@ -40,7 +40,7 @@ export default function ProjectsPage() {
       description:
         "Construction of a new concrete bridge including foundations, structural elements, and road connections.",
       year: "2023",
-      location: "Wynberg, Cape Town",
+      location: "Wynberg",
       size: "200m span",
       image: "/construction/construction5.jpg",
     },
@@ -50,7 +50,7 @@ export default function ProjectsPage() {
       description:
         "Complete custom home construction from foundation to finish, including decorative concrete patios and driveways.",
       year: "2024",
-      location: "Newlands, Cape Town",
+      location: "Newlands",
       size: "450 m²",
       image: "/construction/construction-floor.jpg",
     },
@@ -60,7 +60,7 @@ export default function ProjectsPage() {
       description:
         "Large-scale industrial warehouse with specialized concrete flooring designed for heavy machinery and storage.",
       year: "2022",
-      location: "Goodwood, Cape Town",
+      location: "Goodwood",
       size: "12,000 m²",
       image: "/construction/construction-hero.jpg",
     },
@@ -70,7 +70,7 @@ export default function ProjectsPage() {
       description:
         "Major extension to existing shopping center including new foundations, parking areas, and decorative concrete work.",
       year: "2023",
-      location: "Brackenfell, Cape Town",
+      location: "Brackenfell",
       size: "3,500 m²",
       image: "/construction/construction-pool.jpg",
     },
@@ -86,7 +86,7 @@ export default function ProjectsPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">Our Projects</h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Explore our portfolio of completed concrete construction projects across Cape Town. From residential homes
+              Explore our portfolio of completed brick manufacturing projects across the region. From residential homes
               to large-scale commercial developments, see the quality and craftsmanship that sets us apart.
             </p>
           </div>

@@ -102,7 +102,7 @@ export default function Testimonials() {
         >
           <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our satisfied clients across Cape Town have to say about our
+            Don't just take our word for it. Here's what our satisfied clients have to say about our
             concrete construction services. Their success stories speak to our commitment to excellence.
           </p>
         </motion.div>
@@ -180,7 +180,7 @@ export default function Testimonials() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <p className="text-gray-600 mb-4">Join hundreds of satisfied customers across Cape Town</p>
+          <p className="text-gray-600 mb-4">Join hundreds of satisfied customers</p>
           <div className="flex justify-center items-center space-x-2 mb-6">
             <div className="flex">
               {[...Array(5)].map((_, i) => (

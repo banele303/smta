@@ -15,7 +15,7 @@ export default function ProjectShowcase() {
   const featuredProjects = [
     {
       title: "Luxury Residential Complex",
-      location: "Constantia, Cape Town",
+      location: "Constantia",
       category: "Residential",
       description:
         "Complete concrete construction for a 50-unit luxury residential complex including foundations, driveways, and decorative concrete features.",
@@ -26,7 +26,7 @@ export default function ProjectShowcase() {
     },
     {
       title: "Commercial Office Building",
-      location: "Claremont, Cape Town",
+      location: "Claremont",
       category: "Commercial",
       description:
         "Multi-story office building with specialized concrete flooring, parking garage, and exterior concrete features.",
@@ -37,7 +37,7 @@ export default function ProjectShowcase() {
     },
     {
       title: "Luxury Pool Construction",
-      location: "Camps Bay, Cape Town",
+      location: "Camps Bay",
       category: "Residential",
       description:
         "Custom concrete pool construction with specialized finishes, integrated water features, and surrounding deck area.",

@@ -12,13 +12,13 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   metadataBase: new URL("https://mpconcretefloors.com"),
   title: {
-    default: "M.P And Concrete Floors - Premier Concrete Construction Services in Cape Town",
+    default: "STMA Technical Development - Premier Brick Manufacturing Services",
     template: "%s | M.P And Concrete Floors",
   },
   description:
-    "Professional concrete flooring, construction, and civil engineering services in Cape Town. Specializing in custom homes, extensions, and commercial projects with over 25 years of experience.",
+    "Professional brick manufacturing and construction materials. Specializing in high-quality bricks for residential and commercial projects with over 10 years of experience.",
   keywords:
-    "concrete floors, concrete construction, civil construction, custom homes, extensions, Cape Town, South Africa, construction services, concrete contractors, building contractors, residential construction, commercial construction",
+    "brick manufacturing, construction materials, building bricks, custom bricks, South Africa, construction services, brick suppliers, building materials, residential construction, commercial construction",
   authors: [{ name: "M.P And Concrete Floors" }],
   creator: "M.P And Concrete Floors",
   publisher: "M.P And Concrete Floors",
@@ -40,12 +40,12 @@ export const metadata: Metadata = {
     siteName: "M.P And Concrete Floors",
     title: "M.P And Concrete Floors - Premier Concrete Construction Services",
     description:
-      "Professional concrete flooring and construction services in Cape Town with over 25 years of experience",
+      "Professional brick manufacturing and construction materials with over 10 years of experience",
   },
   twitter: {
     card: "summary_large_image",
     title: "M.P And Concrete Floors - Premier Concrete Construction Services",
-    description: "Professional concrete flooring and construction services in Cape Town",
+    description: "Professional brick manufacturing and construction materials",
   },
     generator: 'v0.dev'
 }
@@ -60,7 +60,7 @@ export default function RootLayout({
       <head>
         <link rel="canonical" href="https://mpconcretefloors.com" />
         <meta name="geo.region" content="ZA-WC" />
-        <meta name="geo.placename" content="Cape Town" />
+        <meta name="geo.placename" content="South Africa" />
         <meta name="geo.position" content="-33.9249;18.4241" />
         <meta name="ICBM" content="-33.9249, 18.4241" />
         <script
@@ -70,7 +70,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               name: "M.P And Concrete Floors PTY (LTD)",
-              description: "Professional concrete construction services in Cape Town",
+              description: "Professional brick manufacturing services",
               url: "https://mpconcretefloors.com",
               telephone: "+27812189299",
               email: "mp25concretefloors@gmail.com",
