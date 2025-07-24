@@ -11,7 +11,7 @@ export default function QuotePage() {
   
   const handleWhatsAppRedirect = () => {
     const message = encodeURIComponent(
-      "Hi STMA Technical Development! I'm interested in getting a quote for brick manufacturing services. Could you please provide me with more information?"
+      "Hi STMA BRICKYARD! I'm interested in getting a quote for brick manufacturing services. Could you please provide me with more information?"
     )
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${message}`
     window.open(whatsappUrl, '_blank')

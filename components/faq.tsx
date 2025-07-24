@@ -61,7 +61,7 @@ export default function FAQ() {
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Find answers to common questions about our brick manufacturing, delivery services, and what you can expect
-            when working with STMA Technical Development.
+            when working with STMA BRICKYARD.
           </p>
         </div>
 

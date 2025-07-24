@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   metadataBase: new URL("https://mpconcretefloors.com"),
   title: {
-    default: "STMA Technical Development - Premier Brick Manufacturing Services",
+    default: "STMA BRICKYARD - Premier Brick Manufacturing Services",
     template: "%s | M.P And Concrete Floors",
   },
   description:

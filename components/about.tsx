@@ -77,7 +77,7 @@ export default function About() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">About STMA Technical Development</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">About STMA BRICKYARD</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Building a better future one brick at a time. Quality, customer satisfaction, and continuous improvement are at the heart of everything we do.
           </p>
@@ -91,7 +91,7 @@ export default function About() {
           >
             <h3 className="text-3xl font-bold text-gray-900 mb-6">Our Story & Mission</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              At STMA Technical development Pty Ltd, we are building a better future one brick at a time. With a focus on quality, customer satisfaction, and continuous improvement we have established ourselves as a leading manufacturer for top tier bricks for construction.
+              At STMA BRICKYARD Pty Ltd, we are building a better future one brick at a time. With a focus on quality, customer satisfaction, and continuous improvement we have established ourselves as a leading manufacturer for top tier bricks for construction.
             </p>
             <p className="text-gray-600 mb-6 leading-relaxed">
               We're dedicated to sustainability and social responsibility, adapting to market demands while prioritizing the well-being of our communities. Our commitment to excellence is reflected in every aspect of our operations, from sourcing raw materials to delivering finished products.
@@ -109,7 +109,7 @@ export default function About() {
           >
             <Image
               src="/images/bricks2.jpeg"
-              alt="STMA Technical Development - Quality Brick Manufacturing"
+              alt="STMA BRICKYARD - Quality Brick Manufacturing"
               fill
               className="object-cover"
             />

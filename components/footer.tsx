@@ -96,7 +96,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 mb-4 md:mb-0">
-              © {new Date().getFullYear()} STMA Technical Development Pty Ltd. All rights reserved.
+              © {new Date().getFullYear()} STMA BRICKYARD Pty Ltd. All rights reserved.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">

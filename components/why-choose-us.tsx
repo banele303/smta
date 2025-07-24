@@ -45,7 +45,7 @@ export default function WhyChooseUs() {
     <section className="py-20 bg-gray-900 text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Why Choose STMA Technical Development?</h2>
+          <h2 className="text-4xl font-bold mb-4">Why Choose STMA BRICKYARD?</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             We're committed to providing top-quality brick manufacturing with a focus on sustainability, reliability, and
             customer satisfaction. Here's what sets us apart from the rest.

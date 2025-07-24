@@ -34,8 +34,8 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             <div className="relative w-60 h-20">
               <Image 
-                src="/stma-logo.jpeg" 
-                alt="STMA Technical Development" 
+                src="/stma-bricks.jpeg" 
+                alt="STMA BRICKYARD" 
                 fill 
                 className="object-contain"
                 priority

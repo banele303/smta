@@ -9,7 +9,7 @@ export default function ContactCTA() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">Need Quality Bricks for Your Project?</h2>
           <p className="text-xl text-red-100 max-w-3xl mx-auto">
-            Contact STMA Technical Development today for expert brick manufacturing services. Get your
+            Contact STMA BRICKYARD today for expert brick manufacturing services. Get your
             free, no-obligation quote and let us help you build with quality and confidence.
           </p>
         </div>

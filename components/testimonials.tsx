@@ -15,7 +15,7 @@ export default function Testimonials() {
       name: "Thabo Mokoena",
       location: "Thohoyandou, Limpopo",
       rating: 5,
-      text: "The quality of bricks from STMA Technical Development is outstanding! We used them for our housing project and the results were beyond our expectations. The bricks are durable, consistent in size, and have given our buildings a premium finish.",
+      text: "The quality of bricks from STMA BRICKYARD is outstanding! We used them for our housing project and the results were beyond our expectations. The bricks are durable, consistent in size, and have given our buildings a premium finish.",
       project: "Housing Development",
       image: "/images/brick1.jpeg",
     },

@@ -6,7 +6,7 @@ import Link from "next/link"
 import ServiceAreas from "@/components/service-areas"
 
 export const metadata: Metadata = {
-  title: "Brick Manufacturing & Services - STMA Technical Development",
+  title: "Brick Manufacturing & Services - STMA BRICKYARD",
   description:
     "Comprehensive brick manufacturing services including custom brick solutions, reliable delivery, and expert technical support for all your construction needs.",
   keywords:

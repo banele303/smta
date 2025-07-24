@@ -10,17 +10,17 @@ import ProjectShowcase from "@/components/project-showcase"
 import ServiceAreas from "@/components/service-areas"
 
 export const metadata: Metadata = {
-  title: "STMA Technical Development - Premier Brick Manufacturing in South Africa",
+  title: "STMA BRICKYARD - Premier Brick Manufacturing in South Africa",
   description:
     "Leading manufacturer of high-quality bricks for construction projects. Specializing in custom brick solutions, reliable delivery, and expert technical support. Contact us at 067 667 5969 for inquiries.",
   keywords:
     "brick manufacturing, construction materials, building bricks, paving bricks, custom brick solutions, brick delivery, technical support, sustainable building materials, construction South Africa, brick suppliers, high-quality bricks, brick manufacturing company",
   openGraph: {
-    title: "STMA Technical Development - Quality Brick Manufacturing",
+    title: "STMA BRICKYARD - Quality Brick Manufacturing",
     description:
       "Building a better future one brick at a time. Your trusted partner for high-quality brick manufacturing and construction solutions in South Africa.",
     url: "https://stma.co.za",
-    siteName: "STMA Technical Development",
+    siteName: "STMA BRICKYARD",
     locale: "en_ZA",
     type: "website",
   },

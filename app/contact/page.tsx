@@ -39,7 +39,7 @@ export default function ContactPage() {
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Ready to start your construction project with quality bricks? Get in touch with STMA Technical Development for a free
+              Ready to start your construction project with quality bricks? Get in touch with STMA BRICKYARD for a free
               consultation and detailed quote. We're here to provide top-quality brick manufacturing solutions.
             </p>
           </div>

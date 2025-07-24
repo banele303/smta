@@ -100,7 +100,7 @@ export default function Hero() {
             </motion.h1>
 
             <motion.p className="text-xl mb-8 text-gray-200 leading-relaxed" variants={itemVariants}>
-              STMA Technical Development is your trusted partner for high-quality bricks for various construction applications. 
+              STMA BRICKYARD is your trusted partner for high-quality bricks for various construction applications. 
               We specialize in manufacturing top-tier bricks with a focus on quality, sustainability, and customer satisfaction.
             </motion.p>
 
@@ -138,7 +138,7 @@ export default function Hero() {
             <div className="absolute top-0 left-0 w-full h-full">
               <Image
                 src="/images/bricks5.jpeg"
-                alt="STMA Technical Development - Quality Bricks"
+                alt="STMA BRICKYARD - Quality Bricks"
                 fill
                 className="object-cover rounded-lg shadow-2xl z-10"
                 priority
@@ -147,7 +147,7 @@ export default function Hero() {
             <div className="absolute -bottom-6 -right-6 w-3/4 h-3/4">
               <Image
                 src="/images/brick1.jpeg"
-                alt="STMA Technical Development - Quality Brick Manufacturing"
+                alt="STMA BRICKYARD - Quality Brick Manufacturing"
                 fill
                 className="object-cover rounded-lg shadow-2xl border-4 border-white z-20"
                 style={{ transform: 'rotate(5deg)' }}

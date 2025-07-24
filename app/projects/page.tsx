@@ -5,7 +5,7 @@ import { Calendar, MapPin, Users } from "lucide-react"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Our Projects - STMA Technical Development | Brick Manufacturing Portfolio",
+  title: "Our Projects - STMA BRICKYARD | Brick Manufacturing Portfolio",
   description:
     "View our portfolio of completed brick manufacturing projects including residential, commercial, and construction material supply.",
   keywords:

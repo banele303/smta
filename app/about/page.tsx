@@ -4,9 +4,9 @@ import { Award, CheckCircle, Clock, Users, Shield } from "lucide-react"
 import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "About Us - STMA Technical Development | Quality Brick Manufacturing",
+  title: "About Us - STMA BRICKYARD | Quality Brick Manufacturing",
   description:
-    "STMA Technical Development Pty Ltd - Building a better future one brick at a time. Quality, sustainability, and customer satisfaction at the heart of our brick manufacturing.",
+    "STMA BRICKYARD Pty Ltd - Building a better future one brick at a time. Quality, sustainability, and customer satisfaction at the heart of our brick manufacturing.",
   keywords:
     "about STMA bricks, brick manufacturing company, quality bricks South Africa, sustainable brick production, construction materials, brick manufacturer",
 }
@@ -15,7 +15,7 @@ export default function AboutPage() {
   const aboutContent = [
     {
       title: "Our Story",
-      content: "At STMA Technical Development Pty Ltd, we are building a better future one brick at a time. With a focus on quality, customer satisfaction, and continuous improvement we have established ourselves as a leading manufacturer for top tier bricks for construction."
+      content: "At STMA BRICKYARD Pty Ltd, we are building a better future one brick at a time. With a focus on quality, customer satisfaction, and continuous improvement we have established ourselves as a leading manufacturer for top tier bricks for construction."
     },
     {
       title: "Our Commitment",
@@ -116,7 +116,7 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-gray-900 to-orange-900 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6">About STMA Technical Development</h1>
+            <h1 className="text-5xl font-bold mb-6">About STMA BRICKYARD</h1>
             <p className="text-xl text-gray-200 leading-relaxed">
               For over 10 years, we have been a trusted partner for high-quality brick manufacturing,
               construction materials, and building solutions. Our commitment to quality, innovation, and customer satisfaction has made
@@ -133,7 +133,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                STMA Technical Development Pty Ltd began as a small family-owned business with a simple mission: to
+                STMA BRICKYARD Pty Ltd began as a small family-owned business with a simple mission: to
                 provide honest, reliable brick manufacturing services to our community. What started as a
                 one-man operation has grown into one of the region's most respected brick manufacturing companies.
               </p>
