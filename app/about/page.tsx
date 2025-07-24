@@ -116,11 +116,11 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-gray-900 to-orange-900 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-6">About M.P And Concrete Floors</h1>
+            <h1 className="text-5xl font-bold mb-6">About STMA Technical Development</h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              For over 25 years, we have been Cape Town's trusted partner for concrete construction, civil engineering,
-              and custom building solutions. Our commitment to quality, innovation, and customer satisfaction has made
-              us a leader in the construction industry.
+              For over 10 years, we have been Cape Town's trusted partner for high-quality brick manufacturing,
+              construction materials, and building solutions. Our commitment to quality, innovation, and customer satisfaction has made
+              us a leader in the brick manufacturing industry.
             </p>
           </div>
         </div>
@@ -133,19 +133,18 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                M.P And Concrete Floors PTY (LTD) began as a small family-owned business with a simple mission: to
-                provide honest, reliable concrete construction services to the Cape Town community. What started as a
-                one-man operation has grown into one of the region's most respected construction companies.
+                STMA Technical Development Pty Ltd began as a small family-owned business with a simple mission: to
+                provide honest, reliable brick manufacturing services to the Cape Town community. What started as a
+                one-man operation has grown into one of the region's most respected brick manufacturing companies.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Under the leadership of Wages, our founder and managing director, we have built a reputation for
-                excellence through consistent delivery of high-quality projects, fair pricing, and exceptional customer
-                service. Our motto, "Best Service You Can Trust," reflects our unwavering commitment to our clients.
+                Under dedicated leadership, we have built a reputation for excellence through consistent delivery of
+                high-quality bricks, fair pricing, and exceptional customer service. Our motto, "Building a Better Future One Brick at a Time," reflects our unwavering commitment to our clients and sustainable construction.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Today, we are proud to have completed over 500 projects, from residential driveways to large-scale
-                commercial developments. Our success is built on the foundation of skilled craftsmanship, modern
-                technology, and genuine care for our clients' needs.
+                Today, we are proud to have served over 500 satisfied clients, from residential builders to large-scale
+                commercial developers. Our success is built on the foundation of skilled craftsmanship, modern
+                brick manufacturing technology, and genuine care for our clients' construction needs.
               </p>
             </div>
             <div className="relative">
